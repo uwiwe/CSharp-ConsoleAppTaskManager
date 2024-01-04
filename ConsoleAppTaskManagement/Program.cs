@@ -128,14 +128,6 @@ namespace TaskManager
             }
         }
 
-        /*public void ListTasksId()
-        {
-            foreach (Tarea tarea in Tasks)
-            {
-                Console.WriteLine("Tarea: " + tarea.Descripcion + ", Id: " + tarea.Id);
-            }
-        }*/
-
         public Tarea FindTaskById(int id)
         {
             return Tasks.FirstOrDefault(tarea => tarea.Id == id);
