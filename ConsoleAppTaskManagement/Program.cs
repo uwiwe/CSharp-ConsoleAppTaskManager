@@ -133,6 +133,11 @@ namespace TaskManager
             return Tasks.FirstOrDefault(tarea => tarea.Id == id);
         }
 
+        /*public Tarea FindTaskById(int id)
+        {
+            return Tasks.FirstOrDefault(tarea => tarea.Id == id);
+        }*/
+
         public bool CompleteTask(int id)
         {
             Tarea completarTarea = FindTaskById(id);
