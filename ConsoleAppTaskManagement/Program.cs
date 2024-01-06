@@ -148,5 +148,14 @@ namespace TaskManager
             }
             return false;
         }
+
+        /*public bool CompleteTask(int id)
+        {
+            Tarea completarTarea = FindTaskById(id);
+            if (completarTarea != null)
+            {
+                completarTarea.Completada =;
+            };
+        }*/
     }
 }
